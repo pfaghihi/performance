@@ -1,4 +1,4 @@
 node {
 	stage 'Run Test'
-	sh 'C:\Program Files (x86)\Jmeter\bin\jmeter.bat   C:/Users/pedra/Desktop/Pipeline/PerfScript_01.jmx  -Jusers=1  -l  test.jtl'
+	sh 'C:\Users\pedra\Desktop\Pipeline\Jmeter\bin\jmeter.bat    C:/Users/pedra/Desktop/Pipeline/PerfScript_01.jmx  -Jusers=1  -l  test.jtl'
 }
